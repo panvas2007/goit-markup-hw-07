@@ -15,7 +15,7 @@
   margin: 0 -30px 0 0;
   padding: 0px;
 }
-.benefist-item {
+.benefist-list__item {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
   &::before {
@@ -42,14 +42,14 @@
 .icon-astronaut::before {
   background-image: url(../images/astronaut1.svg);
 }
-.benefist-title {
+.benefist-list__title {
   @include font(700, 14px, 1.14, 0.03em);
   text-transform: uppercase;
   color: var(--title-color);
   margin-top: 0px;
   margin-bottom: 10px;
 }
-.benefist-text {
+.benefist-list__text {
   @include font(400, 14px, 1.71, 0.03em);
   color: var(--contact-color);
   margin: 0px;

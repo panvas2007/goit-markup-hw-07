@@ -1,4 +1,4 @@
-.hero-section {
+.hero__section {
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
@@ -21,20 +21,20 @@
   padding-bottom: 94px;
 }
 
-.hero-text {
+.hero__text {
   display: block;
   margin-bottom: 30px;
   margin-top: 0;
   @include font(900, 44px, 1.36, 0.06em);
   text-align: center;
   text-transform: uppercase;
-  color: var(--background-color);
+  color: $background-color;
 }
-.hero-button {
-  font-family: "Roboto";
+.hero__button {
+  font-family: $font;
   font-style: normal;
   @include font(700, 16px, 1.88, 0.06em);
-  color: var(--background-color);
+  color: $background-color;
   cursor: pointer;
   background-color: var(--logo-color);
   padding: 10px 32px;
@@ -50,7 +50,7 @@
   transform: translate(-50%);
   &:hover,
   &:focus {
-    color: var(--background-color);
+    color: $background-color;
     background-color: #188ce8;
   }
 }

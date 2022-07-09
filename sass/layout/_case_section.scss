@@ -7,19 +7,19 @@ img {
 .case-section.section {
   padding-top: 0px;
 }
-.case-destop {
+.case-list__destop {
   position: relative;
 }
-.case-desk {
+.case-list__desk {
   @include font(700, 14px, 1.14, 0.03em);
   text-align: center;
   text-transform: uppercase;
   margin: 0px;
   padding-top: 27px;
   padding-bottom: 27px;
-  color: var(--background-color);
+  color: $background-color;
 }
-.case-text {
+.case-list__text {
   position: absolute;
   text-align: center;
   width: 100%;
@@ -31,7 +31,7 @@ img {
   padding: 0px;
   margin: 0 -30px 0 0;
 }
-.case-item {
+.case-list__item {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
 }

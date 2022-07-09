@@ -6,68 +6,71 @@
   text-align: center;
   color: var(--title-color);
 }
-.icon-team {
-  @include align(flex, center, null);
-  padding: 0px;
-  margin: 0px;
-  margin-top: 16px;
-  list-style: none;
-}
-.team-links:not(:last-child) {
-  margin-right: 10px;
-}
-.team-links a {
-  @include align(flex, center, center);
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  fill: #afb1b8;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.team-links a:hover,
-.team-links a:focus {
-  background-color: #188ce8;
-  outline: none;
-}
-.team-links a svg {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.team-links a:hover svg,
-.team-links a:focus svg {
-  fill: #ffffff;
-}
+// .team-list__icon {
+//   @include align(flex, center, null);
+//   padding: 0px;
+//   margin: 0px;
+//   margin-top: 16px;
+//   list-style: none;
+// }
+// .team-list__links {
+//   &:not(:last-child) {
+//     margin-right: 10px;
+//   }
+// }
+// .team-list__links a {
+//   @include align(flex, center, center);
+//   &:hover,
+//   &:focus {
+//     background-color: #188ce8;
+//     outline: none;
+//   }
+//   width: 44px;
+//   height: 44px;
+//   border-radius: 50%;
+//   fill: #afb1b8;
+//   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+//     outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
+// }
+// .team-list__links a svg {
+//   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+// }
+// .team-list__links a {
+//   &:hover svg,
+//   &:focus svg {
+//     fill: #ffffff;
+//   }
+// }
 
 .team-list {
   display: flex;
   padding: 0px;
   margin: 0 -30px 0 0;
 }
-.team-item {
+.team-list__item {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
 }
-.team-title {
+.team-list__title {
   @include font(500, 16px, 1.19, 0.03em);
   text-align: center;
   color: var(--title-color);
   margin-top: 0px;
   margin-bottom: 10px;
 }
-.team-text {
+.team-list__text {
   @include font(400, 16px, 1.19, 0.03em);
   text-align: center;
   color: var(--contact-color);
   margin: 0px;
 }
-.team-item {
-  background: var(--background-color);
+.team-list__item {
+  background: $background-color;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team-description {
+.team-list__description {
   padding-top: 30px;
   padding-bottom: 30px;
 }

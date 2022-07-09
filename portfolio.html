@@ -21,81 +21,86 @@
 	 <link rel="stylesheet" href="./Css/main.min.css" />
   </head>
   <body>
-    <!--header-->
-    <header class="header">
-      <div class="container">
-        <a href="#" class="header-logo"
-          >Web<span class="header-desk">Studio</span></a
-        >
-        <nav class="header-nav">
-          <ul class="header-list list">
-            <li class="header-item">
-              <a href="./index.html" class="header-link link"> Студия</a>
-            </li>
-            <li class="header-item">
-                <a href="./portfolio.html" class="header-link current link"
-                  >Портфолио</a
-                >
-            </li>
-            <li class="header-item">
-              <a href="#контакты" class="header-link link">Контакты</a>
-            </li>
-          </ul>
-        </nav>
-        <ul class="header-items list">
-          <li class="header-item">
-            <a href="mailto:info@devstudio.com" class="header-contact link">
-              <svg class="mail-icon" width="16px" height="12px">
-                <use href="./images/symbol-defs2.svg#icon-envelopehover1"></use>
-              </svg>
-              info@devstudio.com</a
-            >
-          </li>
-          <li class="header-item">
-            <a href="tel:+380961111111" class="header-phone link">
-              <svg class="phone-icon" width="10px" height="16px">
-                <use href="./images/symbol-defs2.svg#icon-smartphone1"></use>
-              </svg>
-              +38 096 111 11 11</a
-            >
-          </li>
-        </ul>
-      </div>
-    </header>
+  <!--header-->
+  <header class="header">
+	<div class="container">
+	  <a href="#" class="header__logo"
+		 >Web<span class="header__desk">Studio</span></a
+	  >
+	  <nav class="nav">
+		 <ul class="header-nav__list list">
+			<li class="header-nav__item">
+			  <a
+				 href="./index.html"
+				 class="header-nav__link link"
+			  >
+				 Студия</a
+			  >
+			</li>
+			<li class="header-nav__item">
+			  <a href="./portfolio.html" class="header-nav__link header-nav__link--current link"
+				 >Портфолио</a
+			  >
+			</li>
+			<li class="header-nav__item">
+			  <a href="#контакты" class="header-nav__link link">Контакты</a>
+			</li>
+		 </ul>
+	  </nav>
+	  <ul class="items list">
+		 <li class="items__item">
+			<a href="mailto:info@devstudio.com" class="items__contact link">
+			  <svg class="items__mail" width="16px" height="12px">
+				 <use href="./images/symbol-defs2.svg#icon-envelopehover1"></use>
+			  </svg>
+			  info@devstudio.com</a
+			>
+		 </li>
+		 <li class="items__item">
+			<a href="tel:+380961111111" class="items__contact link">
+			  <svg class="items__phone" width="10px" height="16px">
+				 <use href="./images/symbol-defs2.svg#icon-smartphone1"></use>
+			  </svg>
+			  +38 096 111 11 11</a
+			>
+		 </li>
+	  </ul>
+	</div>
+ </header>
     <!-- main content -->
     <main>
       <section class="project-section section">
         <h1 class="visually-hidden">Наши работы</h1>
         <div class="container">
           <ul class="main-list list">
-            <li class="main-btn">
-              <button type="button" class="main-button">Все</button>
+            <li class="main-list__btn">
+              <button type="button" class="main-list__button">Все</button>
             </li>
-            <li class="main-btn">
-              <button type="button" class="main-button">Веб-сайты</button>
+            <li class="main-list__btn">
+              <button type="button" class="main-list__button">Веб-сайты</button>
             </li>
-            <li class="main-btn">
-              <button type="button" class="main-button">Приложения</button>
+            <li class="main-list__btn">
+              <button type="button" class="main-list__button">Приложения</button>
             </li>
-            <li class="main-btn">
-              <button type="button" class="main-button">Дизайн</button>
+            <li class="main-list__btn">
+              <button type="button" class="main-list__button">Дизайн</button>
             </li>
-            <li class="main-btn">
-              <button type="button" class="main-button">Маркетинг</button>
+            <li class="main-list__btn">
+              <button type="button" class="main-list__button">Маркетинг</button>
             </li>
           </ul>
           <ul class="project-list list">
-            <li class="project-info">
-              <div class="project-item">
-                <a href="" class="project-link link">
-						<div class="project-pic">
+            <li class="project-list__info">
+              <div class="project-list__item">
+                <a href="" class="project-list__link link">
+						<div class="project-list__pic">
                     <img
                       src="./images/img 143.jpg"
                       alt="фото сотрудников"
                       width="370"
                     />
-                    <div class="project-thumb">
-                      <p class="project-desk">
+                    <div class="project-list__thumb">
+                      <p class="project-list__desk">
                         Ресурс предлагает комплексные предложения с разным
                         уровнем функционала и сервисов. Все это позволит
                         посетителю получить исчерпывающие сведения о компании
@@ -110,17 +115,17 @@
                 </a>
               </div>
             </li>
-            <li class="project-info">
-              <div class="project-item">		
-                <a href="" class="project-link link">
-						<div class="project-pic">
+            <li class="project-list__info">
+              <div class="project-list__item">		
+                <a href="" class="project-list__link link">
+						<div class="project-list__pic">
                   <img
                     src="./images/img.jpg"
                     alt="игра в батскетбол"
                     width="370"
                   />
-						<div class="project-thumb">
-							<p class="project-desk">
+						<div class="project-list__thumb">
+							<p class="project-list__desk">
 							  Ресурс предлагает комплексные предложения с разным
 							  уровнем функционала и сервисов. Все это позволит
 							  посетителю получить исчерпывающие сведения о компании
@@ -137,13 +142,13 @@
 					</div>
                 </a>        
             </li>
-            <li class="project-info">
-              <div class="project-item">				
-                <a href="" class="project-link link">
-						<div class="project-pic">
+            <li class="project-list__info">
+              <div class="project-list__item">				
+                <a href="" class="project-list__link link">
+						<div class="project-list__pic">
                   <img src="./images/img11.png" alt="ресторан" width="370" />
-						<div class="project-thumb">
-							<p class="project-desk">
+						<div class="project-list__thumb">
+							<p class="project-list__desk">
 							  Ресурс предлагает комплексные предложения с разным
 							  уровнем функционала и сервисов. Все это позволит
 							  посетителю получить исчерпывающие сведения о компании
@@ -158,13 +163,13 @@
 					</div>
                 </a>             
             </li>
-            <li class="project-info">
-              <div class="project-item">				
-                <a href="" class="project-link link">
-						<div class="project-pic">
+            <li class="project-list__info">
+              <div class="project-list__item">				
+                <a href="" class="project-list__link link">
+						<div class="project-list__pic">
                    <img src="./images/img21.png" alt="наушники" width="370" />
-						  <div class="project-thumb">
-							 <p class="project-desk">
+						  <div class="project-list__thumb">
+							 <p class="project-list__desk">
 							  Ресурс предлагает комплексные предложения с разным
 							  уровнем функционала и сервисов. Все это позволит
 							  посетителю получить исчерпывающие сведения о компании
@@ -179,13 +184,13 @@
 					</div>
                 </a>      
             </li>
-            <li class="project-info">
-              <div class="project-item">
-                <a href="" class="project-link link">
-						<div class="project-pic">
+            <li class="project-list__info">
+              <div class="project-list__item">
+                <a href="" class="project-list__link link">
+						<div class="project-list__pic">
                   <img src="./images/img33.png" alt="коробки" width="370" />
-						<div class="project-thumb">
-							<p class="project-desk">
+						<div class="project-list__thumb">
+							<p class="project-list__desk">
 							  Ресурс предлагает комплексные предложения с разным
 							  уровнем функционала и сервисов. Все это позволит
 							  посетителю получить исчерпывающие сведения о компании
@@ -200,13 +205,13 @@
 					</div>
                 </a>            
             </li>
-            <li class="project-info">
-              <div class="project-item">				
-                <a href="" class="project-link link">
-						<div class="project-pic">
+            <li class="project-list__info">
+              <div class="project-list__item">				
+                <a href="" class="project-list__link link">
+						<div class="project-list__pic">
                   <img src="./images/img44.png" alt="компьютер" width="370" />
-						<div class="project-thumb">
-							<p class="project-desk">
+						<div class="project-list__thumb">
+							<p class="project-list__desk">
 							  Ресурс предлагает комплексные предложения с разным
 							  уровнем функционала и сервисов. Все это позволит
 							  посетителю получить исчерпывающие сведения о компании
@@ -223,13 +228,13 @@
 					</div>
                 </a>
             </li>
-            <li class="project-info">
-              <div class="project-item">
-                <a href="" class="project-link link">
-						<div class="project-pic">
+            <li class="project-list__info">
+              <div class="project-list__item">
+                <a href="" class="project-list__link link">
+						<div class="project-list__pic">
                   <img src="./images/img55.png" alt="Книга" width="370" />
-						<div class="project-thumb">
-							<p class="project-desk">
+						<div class="project-list__thumb">
+							<p class="project-list__desk">
 							  Ресурс предлагает комплексные предложения с разным
 							  уровнем функционала и сервисов. Все это позволит
 							  посетителю получить исчерпывающие сведения о компании
@@ -244,13 +249,13 @@
 					</div>
                 </a>
             </li>
-            <li class="project-info">
-              <div class="project-item">
-                <a href="" class="project-link link">
-						<div class="project-pic">
+            <li class="project-list__info">
+              <div class="project-list__item">
+                <a href="" class="project-list__link link">
+						<div class="project-list__pic">
                   <img src="./images/img66.png" alt="Бирка" width="370" />		
-						<div class="project-thumb">
-							<p class="project-desk">
+						<div class="project-list__thumb">
+							<p class="project-list__desk">
 							  Ресурс предлагает комплексные предложения с разным
 							  уровнем функционала и сервисов. Все это позволит
 							  посетителю получить исчерпывающие сведения о компании
@@ -265,13 +270,13 @@
 					</div>
                 </a>
             </li>
-            <li class="project-info">
-              <div class="project-item">
-                <a href="" class="project-link link">
-						<div class="project-pic">
+            <li class="project-list__info">
+              <div class="project-list__item">
+                <a href="" class="project-list__link link">
+						<div class="project-list__pic">
                   <img src="./images/img77.png" alt="Ноутбук" width="370" />
-						<div class="project-thumb">
-							<p class="project-desk">
+						<div class="project-list__thumb">
+							<p class="project-list__desk">
 							  Ресурс предлагает комплексные предложения с разным
 							  уровнем функционала и сервисов. Все это позволит
 							  посетителю получить исчерпывающие сведения о компании
@@ -298,18 +303,18 @@
             >Web<span class="footer-desk">Studio</span></a
           >
           <ul id="контакты" class="footer-list list">
-            <li class="footer-item">
-              <a href="#контакты" class="footer-adress link"
+            <li class="footer-list__item">
+              <a href="#контакты" class="footer-list__adress link"
                 >г. Киев, пр-т Леси Украинки, 26</a
               >
             </li>
-            <li class="footer-item">
-              <a href="mailto:info@devstudio.com" class="footer-link link"
+            <li class="footer-list__item">
+              <a href="mailto:info@devstudio.com" class="footer-list__link link"
                 >info@devstudio.com</a
               >
             </li>
-            <li class="footer-item">
-              <a href="tel:+380961111111" class="footer-link link"
+            <li class="footer-list__item">
+              <a href="tel:+380961111111" class="footer-list__link link"
                 >+38 096 111 11 11</a
               >
             </li>
@@ -317,31 +322,31 @@
         </div>
         <div class="footer-icon">
           <p class="footer-text">присоединяйтесь</p>
-          <ul class="icon-item">
-            <li class="icon-link">
+          <ul class="footer-item">
+            <li class="footer-item__link">
               <a href="#">
-                <svg class="icon-element" width="20px" height="20px">
+                <svg class="footer-item__element" width="20px" height="20px">
                   <use href="./images/symbol-defs2.svg#icon-instagram2"></use>
                 </svg>
               </a>
             </li>
-            <li class="icon-link">
+            <li class="footer-item__link">
               <a href="#">
-                <svg class="icon-element" width="20px" height="20px">
+                <svg class="footer-item__element" width="20px" height="20px">
                   <use href="./images/symbol-defs2.svg#icon-twitter1"></use>
                 </svg>
               </a>
             </li>
-            <li class="icon-link">
+            <li class="footer-item__link">
               <a href="#">
-                <svg class="icon-element" width="20px" height="20px">
+                <svg class="footer-item__element" width="20px" height="20px">
                   <use href="./images/symbol-defs2.svg#icon-facebook1"></use>
                 </svg>
               </a>
             </li>
-            <li class="icon-link">
+            <li class="footer-item__link">
               <a href="#">
-                <svg class="icon-element" width="20px" height="20px">
+                <svg class="footer-item__element" width="20px" height="20px">
                   <use href="./images/symbol-defs2.svg#icon-linkedin1"></use>
                 </svg>
               </a>
